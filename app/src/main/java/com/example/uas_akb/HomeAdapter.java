@@ -16,6 +16,12 @@ import com.google.firebase.database.annotations.NotNull;
 
 public class HomeAdapter extends FirebaseRecyclerAdapter<HomeModel,HomeAdapter.myViewHolder> {
 
+
+    //Tanggal   :04 Juni 2021
+    //NIM       :10118385
+    //Nama      :Julian Arisky Lase
+    //Kelas     :IF9
+
     public HomeAdapter(@NonNull FirebaseRecyclerOptions<HomeModel> options) {
         super(options);
     }
