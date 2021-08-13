@@ -9,7 +9,7 @@ import android.view.Window;
 
 public class SplashActivity extends AppCompatActivity {
 
-    //Tanggal   :04 Juni 2021
+    //Tanggal   :09 Agustus 2021
     //NIM       :10118385
     //Nama      :Julian Arisky Lase
     //Kelas     :IF9
@@ -30,6 +30,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), ViewPagerActivity.class));
                 finish();
             }
-        }, 500L); //3000 L = 3 detik
+        }, 1000L); //10000 L = 10 detik
     }
 }

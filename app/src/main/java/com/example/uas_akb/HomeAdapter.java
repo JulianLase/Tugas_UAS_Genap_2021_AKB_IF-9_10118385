@@ -16,8 +16,7 @@ import com.google.firebase.database.annotations.NotNull;
 
 public class HomeAdapter extends FirebaseRecyclerAdapter<HomeModel,HomeAdapter.myViewHolder> {
 
-
-    //Tanggal   :04 Juni 2021
+    //Tanggal   :09 Agustus 2021
     //NIM       :10118385
     //Nama      :Julian Arisky Lase
     //Kelas     :IF9
@@ -54,8 +53,8 @@ public class HomeAdapter extends FirebaseRecyclerAdapter<HomeModel,HomeAdapter.m
         public myViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
 
-            img = (ShapeableImageView) itemView.findViewById(R.id.image_data);
-            title = (TextView) itemView.findViewById(R.id.title_data);
+            img = (ShapeableImageView) itemView.findViewById(R.id.gambar_data);
+            title = (TextView) itemView.findViewById(R.id.nama_data);
             alamat = (TextView) itemView.findViewById(R.id.alamat_data);
             deskripsi = (TextView) itemView.findViewById(R.id.deskripsi_data);
         }

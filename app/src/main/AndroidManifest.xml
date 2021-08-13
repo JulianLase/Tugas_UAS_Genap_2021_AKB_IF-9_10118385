@@ -8,9 +8,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/ic_apk_logo"
+        android:label="@string/Ayo_Dolan_Wisata_Bandung"
+        android:roundIcon="@drawable/ic_apk_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS_AKB">
         <activity android:name=".ViewPagerActivity"></activity>
@@ -18,7 +18,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyABfIa0WMsmE5ji3fmsEUutRiavsXjEDB4" />
+            android:value="${KEY}" />
 
         <activity android:name=".SplashActivity">
             <intent-filter>

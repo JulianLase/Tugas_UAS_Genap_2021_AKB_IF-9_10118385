@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/splash_screen"
-    tools:context=".SplashActivity">
+    tools:context=".SplashActivity"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -18,13 +19,14 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/bdg"/>
+            android:src="@drawable/ic_vacation"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Wisata Bandung"
+            android:text="Lets Vacation"
+            android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="35dp" />
 

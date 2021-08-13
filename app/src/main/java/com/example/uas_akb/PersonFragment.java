@@ -1,5 +1,10 @@
 package com.example.uas_akb;
 
+//Tanggal   :09 Agustus 2021
+//NIM       :10118385
+//Nama      :Julian Arisky Lase
+//Kelas     :IF9
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,11 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link PersonFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class PersonFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match

@@ -1,5 +1,10 @@
 package com.example.uas_akb;
 
+//Tanggal   :09 Agustus 2021
+//NIM       :10118385
+//Nama      :Julian Arisky Lase
+//Kelas     :IF9
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -36,15 +41,20 @@ public class LocationFragment extends Fragment {
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
-                LatLng bandung = new LatLng(-6.9179232,107.6096949);
-                LatLng DusunBambu = new LatLng( -6.7894762,107.5766398);
+                LatLng SanghyangHeuleut = new LatLng(-6.8765131,107.3400296);
                 LatLng TebingKeraton = new LatLng( -6.8340683,107.6614264);
+                LatLng Braga = new LatLng( -6.9181555,107.6046536);
+                LatLng CurugTiluLeuwiOpat = new LatLng( -6.7910377,107.5798191);
+                LatLng MuseumGeologiBandung = new LatLng( -6.9007162,107.6192666);
+                LatLng FarmHouseSusuLembang = new LatLng( -6.832969,107.6034296);
 
-                googleMap.addMarker(new MarkerOptions().position(bandung).title("bandung"));
-                googleMap.addMarker(new MarkerOptions().position(DusunBambu).title("Dusun Bambu"));
+                googleMap.addMarker(new MarkerOptions().position(SanghyangHeuleut).title("Sanghyang Heuleut"));
                 googleMap.addMarker(new MarkerOptions().position(TebingKeraton).title("Tebing Keraton"));
-
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bandung,10));
+                googleMap.addMarker(new MarkerOptions().position(Braga).title("Braga"));
+                googleMap.addMarker(new MarkerOptions().position(CurugTiluLeuwiOpat).title("Curug Tilu Leuwi Opat"));
+                googleMap.addMarker(new MarkerOptions().position(MuseumGeologiBandung).title("Museum Geologi Bandung"));
+                googleMap.addMarker(new MarkerOptions().position(FarmHouseSusuLembang).title("FarmHouseSusuLembang"));
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Braga,11));
 
             }
         });

@@ -1,5 +1,10 @@
 package com.example.uas_akb;
 
+//Tanggal   :09 Agustus 2021
+//NIM       :10118385
+//Nama      :Julian Arisky Lase
+//Kelas     :IF9
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;

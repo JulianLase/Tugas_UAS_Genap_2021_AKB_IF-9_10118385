@@ -1,5 +1,10 @@
 package com.example.uas_akb;
 
+//Tanggal   :09 Agustus 2021
+//NIM       :10118385
+//Nama      :Julian Arisky Lase
+//Kelas     :IF9
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager2.widget.ViewPager2;
@@ -111,6 +116,6 @@ public class ViewPagerActivity extends AppCompatActivity {
                 );
             }
         }
-        buttonViewPager.setText("Home");
+        buttonViewPager.setText("Get Started");
     }
 }
